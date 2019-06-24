@@ -1,0 +1,63 @@
+0. Cửa hàng online vận hành từ khi nào. khoảng 3 năm.
+
+1. Số lượng nhân viên : 6 nhân viên trở lên.
+
+2. Số lượng sản phẩm : vài nghìn.
+
+3. Lượng giao dịch khoảng bao nhiêu : Khoảng vài ngàn 1 tuần.
+
+4. Lượng khách hàng xử lý trong ngày: Vài trăm.
+
+5. Nếu chỉ cần quản lý bằng Excel -> Trước tiên làm 1 phần mềm ghi/đọc file excel theo khách hàng.
+Nhiều trường hợp bị chồng chéo dữ liệu, do 2 nhân viên cùng thao tác trên 1 dòng, người này thêm, người kia xóa mất thông tin.
+Ngoài ra nó còn có nhiều bất tiện khác.
+
+6. Template quản lý Excel ; cửa hàng sẽ gửi qua email.
+
+7. Các nhu cầu khác -> quản lý nhân viên, doanh số bán hàng của từng nhân viên ....
+-> Không cần quản lý doanh số theo nhân viên.
+-> Nên dùng phần mềm quản lý bằng database.
+-> Quản lý online.
+
+Những chức năng chính mong muốn của chủ shop.
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Nhập thông tin khách đặt hàng.
+Ngày đặt hàng, tên khách và số điện thoại, link facebook, hình ảnh sản phẩm mua (URL), tên sản phẩm, màu sắc (Mã màu)., size, số lượng, giá tiền.
+
+2. Thông tin chủ shop mua hàng. Dựa trên thông tin đặt hàng, chủ shop sẽ đặt hàng.
+Mã đơn mua hàng, ngày mua hàng, giá nhập + thông tin khách nhập hàng ở trên.
+
+3. Thông tin trả hàng.
+1+2 + Ngày hàng về, ngày soạn báo khách (Thông tin cho khách hàng đã về rồi), Note (Thông tin khách trả lời, confirm, ngày khách hẹn lấy hàng), ngày khách đã nhận hàng, hình thức thanh toán, nhận hàng()
+Nhận hàng : lấy trực tiếp (tiền mặt, chuyển khoản), gửi viettel (Viettel chuyển/chuyển trực tiếp), gửi supper ship (Supper ship chuyển/ chuyển khoản).
+Câu hỏi : Giá nhập có cần dấu đi hay không, có cần phân quyền là chủ shop hay nhân viên hay không.
+
+4. Thông tin về thanh toán.
+Mã khách hàng, mã sản phẩm, số lượng, tổng tiền, hình thức thanh toán (Tiền mặt, viettel chuyển, suppership 
+chuyển, chuyển khoản trực tiếp), ngày thanh toán.
+
+5. Chức năng tìm kiếm.
+	Tìm theo ngày khách đặt mua.
+	Tìm theo tên khách (các sản phẩm khách đã đặt hàng, sản phẩm đã mua, đã ship, trạng thái thanh toán).
+	Tìm theo tên sản phẩm/ mã sản phẩm (danh sách khánh mua hàng, số lượng, ..) để mua hàng.
+	Tìm kiếm theo tên sản phẩm để trả hàng cho khách (cần đánh dấu vào cột đã trả cho khách).
+
+6. Phân quyền
+
+Chủ cửa hàng: 
+Quản lý, chỉnh sửa được tất cả các thông tin.
+Xác nhận đã thanh toán.
+
+Nhân viên bán hàng.
+Nhập thông tin khách hàng,
+Nhập thông tin trả hàng.
+
+Hạn chế những quyền gì : 
+Không được xác nhận khách đã thanh toán hay chưa.
+Không được xem giá nhập.
+Mỗi người có một màn hình giêng, không chỉnh sửa thông tin chồng chèo lên cùng một dòng.
+
+7. Mong muốn ngày nhận phần mềm.
+Trong vòng 1 tháng ra bản demo.
+Lưu lại lịch sử thao tác của nhân viên.
